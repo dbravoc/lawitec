@@ -1,17 +1,4 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
+
 import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
 
 export default function Example() {
@@ -19,10 +6,11 @@ export default function Example() {
     <form>
       <div className="space-y-12">
         <div className="border-b border-gray-900/10 pb-12">
-          <h2 className="text-base font-semibold leading-7 text-gray-900">Profile</h2>
-          <p className="mt-1 text-sm leading-6 text-gray-600">
-            This information will be displayed publicly so be careful what you share.
-          </p>
+          <h2 className="text-base text-center font-semibold leading-7 text-gray-900">Solicitud</h2>
+          <div className="grid grid-cols-2 mt-1 text-sm leading-6 text-gray-600 ">
+            <div className='col-span-1'>David</div>
+            <div className='col-span-1'>Isabella</div>
+          </div>
 
           <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
             <div className="sm:col-span-4">
